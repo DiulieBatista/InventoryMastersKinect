@@ -8,7 +8,7 @@ namespace InventoryMastersKinect.Model
 {
     public class MedicaoVolume
     {
-        public int Volume { get; set; }
+        public int Id { get; set; }
         public double VolumeCm3 { get; set; }
 
         public DateTime DataHora { get; set; }
