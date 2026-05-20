@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace InventoryMastersKinect.Model
+{
+    public class MedicaoVolume
+    {
+        public double VolumeCm3 { get; set; }
+
+        public DateTime DataHora { get; set; }
+
+        public bool KinectLigado { get; set; }
+
+        public bool Calibrado { get; set; }
+
+        public string Status { get; set; }
+
+    }
+}
