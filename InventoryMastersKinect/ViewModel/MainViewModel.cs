@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace InventoryMastersKinect.ViewModel
 {
-    class MainViewModel
+    public class MainViewModel : BaseViewModel
     {
+
+
     }
 }
