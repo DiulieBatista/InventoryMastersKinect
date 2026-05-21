@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InventoryMastersKinect.ViewModel
+namespace InventoryMastersKinect.Repository.Interface
 {
-    public class MainViewModel : BaseViewModel
+    internal class IKinectRepository
     {
-
-
     }
 }

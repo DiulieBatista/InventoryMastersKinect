@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InventoryMastersKinect.Commands
+namespace InventoryMastersKinect.Repository
 {
-    class RelayCommands
+    internal class KinectRepository
     {
     }
 }
