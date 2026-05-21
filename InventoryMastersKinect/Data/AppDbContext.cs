@@ -7,13 +7,15 @@ using Microsoft.EntityFrameworkCore;
 using InventoryMastersKinect.Model;
 
 namespace InventoryMastersKinect.Data
-{  
+{
     public class AppDbContext : DbContext
     {
         public DbSet<MedicaoVolume> MedicoesVolume { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=medicoes.db");
+            // O arquivo do banco será gerado automaticamente na raiz do projeto
+            optionsBuilder.UseSqlite("Data Source=inventory_masters.db");
         }
     }
 }
